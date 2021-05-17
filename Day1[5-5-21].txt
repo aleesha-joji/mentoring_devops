@@ -1,0 +1,84 @@
+Git Basics
+
+-version control system
+git is a tool installed in your system where as git hub, gitlab, bit bucket are the servers.
+-it works without internet
+-it does not have a specific language preference
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#tracking history
+#collaboration
+#back up
+#multiple feature
+#tracking status
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- it is an open source project
+
+when you open git for the first time in a system then you have to configure git
+
+git init
+
+? The git init command creates a new, empty Git repository
+
+git add
+? it adds from the working directory to staged area
+
+git status
+? it shows the current status of the git repo
+
+git log
+? it gives a list of commits happening in the git repo
+
+git commit
+? it takes the added file from the staged area to the local repository
+
+---------------------------------------------------------------------------------------------
+
+working directory -----> staging area -----> local repo ------> remote repo
+
+                git add             git commit        git push
+
+
+git branching and merging
+
+types of merging
+1 recussive
+2 fast forward
+3 3-way
+
+********************************************************************************************
+
+SVN
+
+Centralized vc- version history is stored in a central server. 
+When a developer wants to make changes they pull files from that central server to their own
+computer and After the developer has made changes,send the changed files back to central server.
+
+For Subversion to work, the SVN setup needs two main elements:
+
+* The server, which has all versions of all source files
+* A local copy of the files, which is on your computer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
