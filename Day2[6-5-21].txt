@@ -1,0 +1,72 @@
+Git commands- Day 2
+
+Types of merges:
+1) Recussive merge
+
+
+2) Fast forward merge
+linear path from the current branch to the target branch.
+moves the contents from current branch tip to target branch tip
+it combines the histories
+
+3) 3-way merge
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+file status life cycle
+- untracked
+files present in local repo but not added in github repo
+
+-unmodified
+files already added but after that some changes are made and these changes are unmodified
+
+-modified
+previousely tracked files are modified and not commited
+
+-staged
+commited files that are ready to push to the git repo
+
+------------------------------------------------------------------------------
+
+git init  [ .git]
+creates an empty git repo skelton which contains all the necessary repo files in the 
+currently working directry
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+modifications to tracked files Three way to commit changes:
+1. $git commit -a -m " your message"
+2. git commit -m " your Message"
+3. gitcommit -v -m "Message"
+
+
+********************************************************************************************
+git reset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
